@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/bubble-sort/
+
 const bubbleSort = (array = []) => {
     if (array.length <= 1) {
         return array;
