@@ -11,6 +11,8 @@ const linearSearch = (array = [], value) => {
             index += 1;
         }
     }
+
+    return position;
 };
 
 module.exports = {
